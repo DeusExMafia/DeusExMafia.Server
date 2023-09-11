@@ -1,3 +1,4 @@
+using DeusExMafia.Server.Middleware;
 
 namespace DeusExMafia.Server;
 
@@ -12,6 +13,8 @@ public class Program {
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
 
+        builder.Services.AddSingleton<GameplayMiddleware>();
+
         var app = builder.Build();
 
         // Configure the HTTP request pipeline.
@@ -19,6 +22,9 @@ public class Program {
             app.UseSwagger();
             app.UseSwaggerUI();
         }
+
+        app.UseWebSockets();
+        app.UseGameMiddleware();
 
         app.UseHttpsRedirection();
 

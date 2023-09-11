@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+    <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Network\Handlers\NetworkHandler.cs~RF7b59175a.TMP" />
+    <None Remove="Network\Packets\PacketHandler.cs~RF72e6d1d9.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <EditorConfigFiles Remove="C:\Users\Ramon\source\repos\DeusExMafia.Server\DeusExMafia.Server.Core\.editorconfig" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="C:\Users\Ramon\source\repos\DeusExMafia.Server\DeusExMafia.Server.Core\.editorconfig" />
+  </ItemGroup>
+
+</Project>

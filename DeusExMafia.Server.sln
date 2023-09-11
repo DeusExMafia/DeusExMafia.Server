@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33103.201
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeusExMafia.Server", "DeusExMafia.Server\DeusExMafia.Server.csproj", "{0A3CC948-48F1-4036-AD8F-A5879055F1A9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeusExMafia.Server", "DeusExMafia.Server\DeusExMafia.Server.csproj", "{0A3CC948-48F1-4036-AD8F-A5879055F1A9}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeusExMafia.Server.Core", "DeusExMafia.Server.Core\DeusExMafia.Server.Core.csproj", "{183AAE1E-F560-416C-9A14-6FD5C7D99C0D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeusExMafia.Server.Core.Tests", "DeusExMafia.Server.Core.Tests\DeusExMafia.Server.Core.Tests.csproj", "{0153A1E2-6EEE-4323-A780-7B8D0B613FB1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{0A3CC948-48F1-4036-AD8F-A5879055F1A9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0A3CC948-48F1-4036-AD8F-A5879055F1A9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0A3CC948-48F1-4036-AD8F-A5879055F1A9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{183AAE1E-F560-416C-9A14-6FD5C7D99C0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{183AAE1E-F560-416C-9A14-6FD5C7D99C0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{183AAE1E-F560-416C-9A14-6FD5C7D99C0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{183AAE1E-F560-416C-9A14-6FD5C7D99C0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0153A1E2-6EEE-4323-A780-7B8D0B613FB1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0153A1E2-6EEE-4323-A780-7B8D0B613FB1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0153A1E2-6EEE-4323-A780-7B8D0B613FB1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0153A1E2-6EEE-4323-A780-7B8D0B613FB1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
