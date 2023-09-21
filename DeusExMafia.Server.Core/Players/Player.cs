@@ -4,10 +4,17 @@ using DeusExMafia.Server.Core.Network.Packets;
 namespace DeusExMafia.Server.Core.Players;
 
 public class Player {
-    public ClientConnection ClientConnection { get; set; }
-    public string Name { get; } = "Player" + Random.Shared.Next(1000);
+    private readonly Account Account;
 
-    public Player(ClientConnection.Creator clientConnectionCreator) {
+    public ClientConnection ClientConnection { get; set; }
+    public string Name {
+        get {
+            return Account.Username;
+        }
+    }
+
+    public Player(Account account, ClientConnection.Creator clientConnectionCreator) {
+        Account = account;
         ClientConnection = clientConnectionCreator(this);
     }
 
