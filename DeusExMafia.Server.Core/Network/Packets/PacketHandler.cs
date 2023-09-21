@@ -1,5 +1,4 @@
-﻿using System.Net.WebSockets;
-using DeusExMafia.Server.Core.Network.Handlers;
+﻿using DeusExMafia.Server.Core.Network.Handlers;
 using DeusExMafia.Server.Core.Network.IO;
 
 namespace DeusExMafia.Server.Core.Network.Packets;
